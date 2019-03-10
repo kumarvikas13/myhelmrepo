@@ -3,9 +3,9 @@ entries:
   ibm-wordpress-dev:
   - apiVersion: v1
     appVersion: 5.1.0
-    created: 2019-03-09T10:19:12.662296047-08:00
+    created: 2019-03-10T13:00:23.164861631-07:00
     description: Web publishing platform for building blogs and websites.
-    digest: f76cebd83a9f5e6c82da94763cd97951c01d4ba56d788001a61fa1cbb9647f00
+    digest: 6d3a0ab4d5fd63e8696902f32f425451a5fffd25cd5b39c26b92b5b676aba82a
     engine: gotpl
     home: http://www.wordpress.com/
     icon: https://bitnami.com/assets/stacks/wordpress/img/wordpress-stack-220x234.png
@@ -26,4 +26,4 @@ entries:
     urls:
     - https://kumarvikas13.github.io/myhelmrepo/ibm-wordpress-dev-5.4.1.tgz
     version: 5.4.1
-generated: 2019-03-09T10:19:12.657685127-08:00
+generated: 2019-03-10T13:00:23.162327512-07:00
