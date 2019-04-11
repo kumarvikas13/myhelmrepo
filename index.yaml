@@ -1,11 +1,42 @@
 apiVersion: v1
 entries:
+  ibm-matomo-dev:
+  - appVersion: 5.1.0
+    created: 2019-04-11T05:55:15.044605493-07:00
+    description: Web publishing platform for building blogs and websites.
+    digest: 44d110b4345a8651dffa6e2589909616c9859bdf14fe1b6d91ba2b049498b624
+    engine: gotpl
+    home: http://www.matomo.com/
+    icon: https://bitnami.com/assets/stacks/matomo/img/matomo-stack-220x234.png
+    keywords:
+    - matomo
+    - cms
+    - blog
+    - http
+    - web
+    - application
+    - php
+    - Limited
+    - Beta
+    - ppc64le
+    - ICP
+    - Tools
+    kubeVersion: '>=1.7.0'
+    maintainers:
+    - name: pierre
+    name: ibm-matomo-dev
+    sources:
+    - https://github.com/matomo-org/docker
+    tillerVersion: '>=2.7.2'
+    urls:
+    - https://kumarvikas13.github.io/myhelmrepo/ibm-matomo-dev-0.3.0.tgz
+    version: 0.3.0
   ibm-vault-dev:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-04-09T23:54:06.195898254-07:00
+    created: 2019-04-11T05:55:15.046617772-07:00
     description: A Helm chart for Kubernetes to manage the secrets.
-    digest: b2a09f33a39a8d09e3046698151e54529921c182d314e9dd6b89d428b58b5625
+    digest: 356af0230c4d73b9961580e25e9a5ee529bbe72e9b2efc25036e2117f3f70f2e
     icon: https://hub.docker.com/r/ibmcom/vault-ppc64le/
     keywords:
     - vault
@@ -23,7 +54,7 @@ entries:
     version: 0.1.0
   ibm-wordpress-dev:
   - appVersion: 5.1.0
-    created: 2019-04-09T23:54:06.230722562-07:00
+    created: 2019-04-11T05:55:15.075709055-07:00
     description: Web publishing platform for building blogs and websites.
     digest: f0b018c04f022c0dc0bd105fa57424ade4bd7edeb194553cd69a57ac46e1070c
     engine: gotpl
@@ -53,4 +84,4 @@ entries:
     urls:
     - https://kumarvikas13.github.io/myhelmrepo/ibm-wordpress-dev-0.3.0.tgz
     version: 0.3.0
-generated: 2019-04-09T23:54:06.191695047-07:00
+generated: 2019-04-11T05:55:15.021824554-07:00
