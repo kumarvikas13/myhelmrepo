@@ -1,10 +1,37 @@
 apiVersion: v1
 entries:
+  ibm-cassandra-dev:
+  - appVersion: 3.11.3
+    created: 2019-04-12T03:11:31.931561156-07:00
+    description: Apache Cassandra
+    digest: b0623b280fc2b3bfec66542ca6053bc98b8237d9b8d6cb0ff9322bf634e5ff13
+    engine: gotpl
+    home: http://cassandra.apache.org
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Cassandra_logo.svg/330px-Cassandra_logo.svg.png
+    keywords:
+    - cassandra
+    - database
+    - nosql
+    - s390x
+    - ppc64le
+    - amd64
+    - Beta
+    - Limited
+    - ICP
+    kubeVersion: '>=1.7.0'
+    maintainers:
+    - email: sachav83@in.ibm.com
+      name: Sailja
+    name: ibm-cassandra-dev
+    tillerVersion: '>=2.7.2'
+    urls:
+    - https://kumarvikas13.github.io/myhelmrepo/ibm-cassandra-dev-0.10.0.tgz
+    version: 0.10.0
   ibm-matomo-dev:
   - appVersion: 5.1.0
-    created: 2019-04-11T05:55:15.044605493-07:00
+    created: 2019-04-12T03:11:31.963355403-07:00
     description: Web publishing platform for building blogs and websites.
-    digest: 44d110b4345a8651dffa6e2589909616c9859bdf14fe1b6d91ba2b049498b624
+    digest: 74468e12eee6fc5d0006529345f832c49314144ee862766d7db451261ae7b223
     engine: gotpl
     home: http://www.matomo.com/
     icon: https://bitnami.com/assets/stacks/matomo/img/matomo-stack-220x234.png
@@ -23,7 +50,8 @@ entries:
     - Tools
     kubeVersion: '>=1.7.0'
     maintainers:
-    - name: pierre
+    - email: pnailush@in.ibm.com
+      name: Nailusha
     name: ibm-matomo-dev
     sources:
     - https://github.com/matomo-org/docker
@@ -34,7 +62,7 @@ entries:
   ibm-vault-dev:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-04-11T05:55:15.046617772-07:00
+    created: 2019-04-12T03:11:31.965598748-07:00
     description: A Helm chart for Kubernetes to manage the secrets.
     digest: 356af0230c4d73b9961580e25e9a5ee529bbe72e9b2efc25036e2117f3f70f2e
     icon: https://hub.docker.com/r/ibmcom/vault-ppc64le/
@@ -54,7 +82,7 @@ entries:
     version: 0.1.0
   ibm-wordpress-dev:
   - appVersion: 5.1.0
-    created: 2019-04-11T05:55:15.075709055-07:00
+    created: 2019-04-12T03:11:31.99616178-07:00
     description: Web publishing platform for building blogs and websites.
     digest: f0b018c04f022c0dc0bd105fa57424ade4bd7edeb194553cd69a57ac46e1070c
     engine: gotpl
@@ -84,4 +112,4 @@ entries:
     urls:
     - https://kumarvikas13.github.io/myhelmrepo/ibm-wordpress-dev-0.3.0.tgz
     version: 0.3.0
-generated: 2019-04-11T05:55:15.021824554-07:00
+generated: 2019-04-12T03:11:31.927358532-07:00
