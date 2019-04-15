@@ -1,10 +1,43 @@
 apiVersion: v1
 entries:
+  ibm-alfresco-dev:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2019-04-15T03:30:20.556630815-07:00
+    description: Content management system
+    digest: fe65175bb1a4fa3cc6406454c675229e2fba4b030a8a08d41f14f2532fa8e016
+    engine: gotpl
+    home: https://www.alfresco.com/
+    icon: https://bitnami.com/assets/stacks/alfresco/img/alfresco-stack-220x234.png
+    keywords:
+    - alfresco
+    - cms
+    - blog
+    - http
+    - web
+    - application
+    - php
+    - Limited
+    - Beta
+    - ppc64le
+    - ICP
+    - Tools
+    kubeVersion: '>=1.7'
+    maintainers:
+    - email: pnailush@in.ibm.com
+      name: Nailusha
+    name: ibm-alfresco-dev
+    sources:
+    - https://hub.docker.com/r/ppc64le/alfresco
+    tillerVersion: '>=2.7.2'
+    urls:
+    - https://kumarvikas13.github.io/myhelmrepo/ibm-alfresco-dev-0.1.0.tgz
+    version: 0.1.0
   ibm-cassandra-dev:
   - appVersion: 3.11.3
-    created: 2019-04-12T03:11:31.931561156-07:00
+    created: 2019-04-15T03:30:20.559773115-07:00
     description: Apache Cassandra
-    digest: b0623b280fc2b3bfec66542ca6053bc98b8237d9b8d6cb0ff9322bf634e5ff13
+    digest: f8e2c096fc18104c32ce5b781a2dcfc60d71b289a622b16b72e4ab91db390184
     engine: gotpl
     home: http://cassandra.apache.org
     icon: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Cassandra_logo.svg/330px-Cassandra_logo.svg.png
@@ -29,7 +62,7 @@ entries:
     version: 0.10.0
   ibm-matomo-dev:
   - appVersion: 5.1.0
-    created: 2019-04-12T03:11:31.963355403-07:00
+    created: 2019-04-15T03:30:20.588900262-07:00
     description: Web publishing platform for building blogs and websites.
     digest: 74468e12eee6fc5d0006529345f832c49314144ee862766d7db451261ae7b223
     engine: gotpl
@@ -62,7 +95,7 @@ entries:
   ibm-vault-dev:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-04-12T03:11:31.965598748-07:00
+    created: 2019-04-15T03:30:20.591316182-07:00
     description: A Helm chart for Kubernetes to manage the secrets.
     digest: 356af0230c4d73b9961580e25e9a5ee529bbe72e9b2efc25036e2117f3f70f2e
     icon: https://hub.docker.com/r/ibmcom/vault-ppc64le/
@@ -82,7 +115,7 @@ entries:
     version: 0.1.0
   ibm-wordpress-dev:
   - appVersion: 5.1.0
-    created: 2019-04-12T03:11:31.99616178-07:00
+    created: 2019-04-15T03:30:20.622289394-07:00
     description: Web publishing platform for building blogs and websites.
     digest: f0b018c04f022c0dc0bd105fa57424ade4bd7edeb194553cd69a57ac46e1070c
     engine: gotpl
@@ -112,4 +145,4 @@ entries:
     urls:
     - https://kumarvikas13.github.io/myhelmrepo/ibm-wordpress-dev-0.3.0.tgz
     version: 0.3.0
-generated: 2019-04-12T03:11:31.927358532-07:00
+generated: 2019-04-15T03:30:20.527436501-07:00
