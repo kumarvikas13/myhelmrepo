@@ -1,43 +1,10 @@
 apiVersion: v1
 entries:
-  ibm-alfresco-dev:
-  - apiVersion: v1
-    appVersion: "1.0"
-    created: 2019-06-10T21:47:54.983782385-07:00
-    description: Content management system
-    digest: fe65175bb1a4fa3cc6406454c675229e2fba4b030a8a08d41f14f2532fa8e016
-    engine: gotpl
-    home: https://www.alfresco.com/
-    icon: https://bitnami.com/assets/stacks/alfresco/img/alfresco-stack-220x234.png
-    keywords:
-    - alfresco
-    - cms
-    - blog
-    - http
-    - web
-    - application
-    - php
-    - Limited
-    - Beta
-    - ppc64le
-    - ICP
-    - Tools
-    kubeVersion: '>=1.7'
-    maintainers:
-    - email: pnailush@in.ibm.com
-      name: Nailusha
-    name: ibm-alfresco-dev
-    sources:
-    - https://hub.docker.com/r/ppc64le/alfresco
-    tillerVersion: '>=2.7.2'
-    urls:
-    - https://kumarvikas13.github.io/myhelmrepo/ibm-alfresco-dev-0.1.0.tgz
-    version: 0.1.0
   ibm-cassandra-dev:
   - appVersion: 3.11.3
-    created: 2019-06-10T21:47:54.98735208-07:00
+    created: 2019-06-25T20:12:29.574848047-07:00
     description: Apache Cassandra
-    digest: fb442355a110e35cfd49281165981f9247aa7a74e5600c1666e0086cb528d722
+    digest: db60ef6856fded8854bca36b83470aa90512bf07083245d099fcc6856666b596
     engine: gotpl
     home: http://cassandra.apache.org
     icon: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Cassandra_logo.svg/330px-Cassandra_logo.svg.png
@@ -53,17 +20,77 @@ entries:
     - ICP
     kubeVersion: '>=1.7.0'
     maintainers:
-    - name: KongZ
+    - name: Sailaja
     name: ibm-cassandra-dev
     tillerVersion: '>=2.7.2'
     urls:
     - https://kumarvikas13.github.io/myhelmrepo/ibm-cassandra-dev-0.10.0.tgz
     version: 0.10.0
+  ibm-drupal-dev:
+  - appVersion: 8.6.9
+    created: 2019-06-25T20:12:29.619620761-07:00
+    description: One of the most versatile open source content management systems.
+    digest: 5a3b4ddfab4948c92e0e8421f7359beaf9ac9158455bdf7a779b919f0e67c24d
+    engine: gotpl
+    icon: https://upload.wikimedia.org/wikipedia/commons/4/49/Drupal_logo.jpg
+    keywords:
+    - drupal
+    - cms
+    - blog
+    - http
+    - web
+    - application
+    - php
+    - ppc64le
+    - Tools
+    - Beta
+    - Limited
+    - ICP
+    kubeVersion: '>=1.7.0'
+    maintainers:
+    - name: Bitnami
+    name: ibm-drupal-dev
+    sources:
+    - https://github.com/bitnami/bitnami-docker-drupal
+    tillerVersion: '>=2.7.2'
+    urls:
+    - https://kumarvikas13.github.io/myhelmrepo/ibm-drupal-dev-0.10.0.tgz
+    version: 0.10.0
+  ibm-joomla-dev:
+  - appVersion: 3.9.3
+    created: 2019-06-25T20:12:29.642220183-07:00
+    description: PHP content management system (CMS) for publishing web content
+    digest: 29a3591b4e9b0d067940144070024caf6b4f80ede958f5ca961d5c631d8c6656
+    engine: gotpl
+    home: http://www.joomla.org/
+    icon: https://bitnami.com/assets/stacks/joomla/img/joomla-stack-220x234.png
+    keywords:
+    - joomla
+    - cms
+    - blog
+    - http
+    - php
+    - ppc64le
+    - Beta
+    - Limited
+    - OpenSource
+    - ICP
+    - Tools
+    kubeVersion: '>=1.7.0'
+    maintainers:
+    - name: Bitnami
+    name: ibm-joomla-dev
+    sources:
+    - https://github.com/bitnami/bitnami-docker-joomla
+    tillerVersion: '>=2.7.2'
+    urls:
+    - https://kumarvikas13.github.io/myhelmrepo/ibm-joomla-dev-0.3.0.tgz
+    version: 0.3.0
   ibm-matomo-dev:
   - appVersion: 5.1.0
-    created: 2019-06-10T21:47:55.012357427-07:00
+    created: 2019-06-25T20:12:29.667241993-07:00
     description: Web publishing platform for building blogs and websites.
-    digest: 74468e12eee6fc5d0006529345f832c49314144ee862766d7db451261ae7b223
+    digest: fe82a40314a3b14e282924198104b5c2f804e446173dde3ea5a1ff675e825fb0
     engine: gotpl
     home: http://www.matomo.com/
     icon: https://bitnami.com/assets/stacks/matomo/img/matomo-stack-220x234.png
@@ -82,8 +109,7 @@ entries:
     - Tools
     kubeVersion: '>=1.7.0'
     maintainers:
-    - email: pnailush@in.ibm.com
-      name: Nailusha
+    - name: Nailusha
     name: ibm-matomo-dev
     sources:
     - https://github.com/matomo-org/docker
@@ -91,32 +117,11 @@ entries:
     urls:
     - https://kumarvikas13.github.io/myhelmrepo/ibm-matomo-dev-0.3.0.tgz
     version: 0.3.0
-  ibm-vault-dev:
-  - apiVersion: v1
-    appVersion: "1.0"
-    created: 2019-06-10T21:47:55.014266501-07:00
-    description: A Helm chart for Kubernetes to manage the secrets.
-    digest: 356af0230c4d73b9961580e25e9a5ee529bbe72e9b2efc25036e2117f3f70f2e
-    icon: https://hub.docker.com/r/ibmcom/vault-ppc64le/
-    keywords:
-    - vault
-    - Limited
-    - Beta
-    - ppc64le
-    - runtime
-    - ICP
-    - Tools
-    kubeVersion: '>=1.7.0'
-    name: ibm-vault-dev
-    tillerVersion: '>=2.7.2'
-    urls:
-    - https://kumarvikas13.github.io/myhelmrepo/ibm-vault-dev-0.1.0.tgz
-    version: 0.1.0
   ibm-wordpress-dev:
   - appVersion: 5.1.0
-    created: 2019-06-10T21:47:55.03815922-07:00
+    created: 2019-06-25T20:12:29.691033926-07:00
     description: Web publishing platform for building blogs and websites.
-    digest: f0b018c04f022c0dc0bd105fa57424ade4bd7edeb194553cd69a57ac46e1070c
+    digest: f4ebbdd2d1e4f58f3f9563e31b16a23fa0ec3bbd4a9d50b9d879e04b123d47cd
     engine: gotpl
     home: http://www.wordpress.com/
     icon: https://bitnami.com/assets/stacks/wordpress/img/wordpress-stack-220x234.png
@@ -135,8 +140,7 @@ entries:
     - Tools
     kubeVersion: '>=1.7.0'
     maintainers:
-    - email: containers@bitnami.com
-      name: Bitnami
+    - name: Bitnami
     name: ibm-wordpress-dev
     sources:
     - https://github.com/bitnami/bitnami-docker-wordpress
@@ -144,4 +148,4 @@ entries:
     urls:
     - https://kumarvikas13.github.io/myhelmrepo/ibm-wordpress-dev-0.3.0.tgz
     version: 0.3.0
-generated: 2019-06-10T21:47:54.956671072-07:00
+generated: 2019-06-25T20:12:29.570975492-07:00
